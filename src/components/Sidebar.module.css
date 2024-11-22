@@ -1,0 +1,22 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 58px;
+  padding: 15px;
+  z-index: 99999;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sidebar .logo {
+  width: 22px;
+  height: 24px;
+  /* border-bottom: 1px solid #D9D9D9; */
+}

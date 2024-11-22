@@ -1,0 +1,119 @@
+.header {
+  position: fixed;
+  left: 58px;
+  top: 0;
+  padding: 8px 15px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 58px);
+  z-index: 99999;
+}
+
+.header .headerLeft h1 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #262626;
+  margin: 0;
+}
+
+.header .headerRight .headerInner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.header .headerInner .userProfileWrapper {
+  position: relative;
+}
+
+.header .headerRight .userProfileTrigger {
+  cursor: pointer;
+}
+
+.header .headerInner .userProfileWrapper .userProfileDropdown {
+  position: absolute;
+  content: "";
+  top: 30px;
+  right: 0;
+  width: 216px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px 12px;
+  box-shadow: 0px 10px 40px 0px #00000026;
+}
+
+.userProfileDropdown ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.userProfileDropdown ul li {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.userProfileDropdown ul li:last-child {
+  margin-bottom: 0;
+}
+
+.userProfileDropdown ul li .user {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.userProfileDropdown ul li .user .avatar {
+  background-color: #2a4dd8;
+  height: 28px;
+  width: 28px;
+  border-radius: 100%;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.userProfileDropdown ul li .user .userInfo {
+  color: #000;
+}
+
+.userProfileDropdown ul li .user .userInfo h5 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.userProfileDropdown ul li .user .userInfo p {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.userProfileDropdown .logoutBlock {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  gap: 12px;
+}
+
+.userProfileDropdown .logoutBlock .logoutIcon {
+  height: 16px;
+  width: 16px;
+}
+
+.userProfileDropdown .logoutBlock .logoutText {
+  color: #3e4d66 !important;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+}

@@ -1,0 +1,10 @@
+.mainWrapper {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 50px 16px 15px 73px;
+    background-color: #F6F6F6;
+}

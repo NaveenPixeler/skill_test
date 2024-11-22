@@ -1,0 +1,95 @@
+table {
+  width: 100%;
+  table-layout: fixed; /* Ensures all cells are of equal width */
+  border-collapse: separate; /* Keep border spacing */
+  border-spacing: 5px; /* Space between cells */
+  text-align: center;
+}
+
+.table-container {
+  overflow-x: auto;
+  padding: 10px;
+}
+
+caption {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #4b0082; /* Dark purple */
+}
+
+tr.days th,
+tr.metricHeaders th,
+td.time,
+td.totalValue {
+  color: #9d9d9d;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+tr.days th {
+    padding-bottom: 20px;
+}
+
+tr.metricHeaders th {
+    padding-bottom: 13px;
+}
+
+tr.metricHeaders th {
+  color: #797979;
+  font-weight: 500;
+}
+
+td {
+  padding: 4px 7px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+td.time {
+  color: #9d9d9d;
+}
+
+td.imp,
+td.clicks,
+td.cpm {
+  color: #5932ea;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 0.9;
+  min-width: 55px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.imp {
+  background-color: #e2d9fa;
+}
+
+.clicks {
+  background-color: #ffd9f3;
+}
+
+.cpm {
+  background-color: #90def3;
+}
+
+td:first-child {
+  background: none; /* Remove background for the time column */
+  width: auto; /* Allow time column to adjust size dynamically */
+}
+
+tfoot tr td.totalTitle {
+  font-size: 12px;
+  font-weight: 600;
+  color: #0a0a0a;
+}
+
+tr._days_32emm_21 th, tr._metricHeaders th {
+    padding-bottom: 13px;
+}
+
+tr._metricHeaders th {
+    padding-top: 7px;
+}

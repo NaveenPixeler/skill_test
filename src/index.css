@@ -1,0 +1,107 @@
+/* reset css */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+/* Base css */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section {
+  position: relative;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+  display: block;
+}
+
+/* Custom card */
+.customCard {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.08);
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.customCard .customCardHeader {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+
+/* .customCard .customCardHeader .headerLeft {
+} */
+
+.customCard .customCardHeader .headerLeft h2 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.73px;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.customCard .customCardHeader .headerLeft p {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #9d9d9d;
+  margin-bottom: 0;
+}
+
+/* .customCard .customCardHeader .headerRight {
+}
+
+.customCard .customCardHeader .headerRight select {
+} */
+
+.customCard .customCardBody {
+    padding: 40px 15px 15px;
+}
+
+.customCard .customCardBody .recharts-wrapper {
+    width: 100%;
+}

@@ -1,0 +1,131 @@
+.signInContainer {
+  background-image: url("../../assets/images/icon-bg-sign-in.svg");
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  margin-bottom: 78px;
+}
+
+.signInCard {
+  padding: 125px 115px;
+  background-color: rgba(255, 2555, 2555, 0.7);
+  border: 4px solid #fff;
+  border-radius: 15px;
+  box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.5);
+  width: 633px;
+}
+
+.signInCard h1 {
+  font-size: 30px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #303030;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.signInCard .formGroup {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 6px;
+  width: 100%;
+}
+
+.signInCard .formGroup label {
+  font-size: 12px;
+  line-height: 1.25;
+  color: #303030;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.signInCard .formGroup .inputWrapper {
+  position: relative;
+}
+
+.signInCard .formGroup .inputWrapper::before {
+  position: absolute;
+  content: "";
+  width: 18px;
+  height: 18px;
+  left: 20px;
+  top: 15px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.signInCard .formGroup .inputWrapper.email::before {
+  background-image: url("../../assets/images/icon-email.svg");
+}
+
+.signInCard .formGroup .inputWrapper.password::before {
+  background-image: url("../../assets/images/icon-lock.svg");
+}
+
+.signInCard .formGroup .inputWrapper.password .forgotPassword {
+  position: absolute;
+  content: "";
+  right: 20px;
+  top: 15px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  color: #f43899;
+}
+
+.signInCard .formGroup input {
+  padding: 15px 20px 15px 46px;
+  border: 0.5px solid #303030;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.signInCard .formGroup .inputWrapper.password input {
+    padding-right: 150px;
+}
+
+.signInCard .formCheck {
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6;
+  margin-bottom: 16px;
+}
+
+.signInCard .ctaPrimary {
+  background-color: rgba(89, 50, 234, 1);
+  padding: 14px;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.signInCard .ctaPrimary:hover {
+  background-color: rgba(89, 50, 234, 0.81);
+}
